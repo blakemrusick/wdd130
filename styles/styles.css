@@ -1,4 +1,17 @@
+h1{
+    color: crimson;
+}
 
+nav {
+    background-color: crimson;
+    padding: auto;
+}
+
+nav a {
+    color: gold;
+    padding: auto;
+    display: block;
+}
 
 main {
     max-width: 600px;
@@ -8,20 +21,24 @@ main {
 main img {
     width: 450px;
     height: auto;
+    border: 1px solid gold;
+    padding: 1rem;
+    box-shadow: #000;
+    background-color: crimson;
 }
 
 aside{
     width: 500px;
     margin: 1rem;
-    border: 1px solid #000;
+    border: 1px solid gold;
     padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    background-color: crimson;
+    color: gold;
     text-align: center;
 }
 
 img-aside{
-    width: 400px;
+    width: 200px;
     height: auto;
 }
 
