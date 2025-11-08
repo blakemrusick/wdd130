@@ -4,12 +4,12 @@ h1{
 
 nav {
     background-color: crimson;
-    padding: auto;
+    padding: 1rem;
 }
 
 nav a {
     color: gold;
-    padding: auto;
+    padding: 1rem;
     display: block;
 }
 
@@ -23,7 +23,7 @@ main img {
     height: auto;
     border: 1px solid gold;
     padding: 1rem;
-    box-shadow: #000;
+    box-shadow: #333;
     background-color: crimson;
 }
 
