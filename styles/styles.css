@@ -9,11 +9,16 @@ nav a {
     padding: 20px;
 }
 
+main {
+    max-width: 500px;
+
+}
+
 h1 {
     color: darkblue;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -21,6 +26,28 @@ img {
     box-shadow: 0 0 30px gray;
 }
 
+aside {
+    max-width: 500px;
+    margin: 50px 500px;
+    border: 3px solid #333;
+    padding: 0 20px;
+    background-color: royalblue;
+    color: white;
+
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+    box-shadow: 0 0 30px black;
+}
+
 p {
-    padding: 10px;
+    padding: 0px;
+}
+
+footer {
+    margin-top: 100px;
+    border-top: 2px solid black;
+    text-align: center;
 }
