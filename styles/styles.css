@@ -1,8 +1,14 @@
 /* This is a comment */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --primary-color: royalblue;
-    --standard-margin: 3rem;
+    --standard-margin: 1rem;
 }
 
 nav {
@@ -17,7 +23,7 @@ nav a {
 }
 
 main {
-    max-width: 40rem;
+    max-width: 30rem;
     margin: var(--standard-margin);
 }
 
@@ -31,16 +37,14 @@ main img {
     border: 1px solid black;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 aside {
     width: 15rem;
-    margin: var(--standard-margin);
-    border: 3px solid #333;
-    padding: 0 2rem;
-    background-color: var(--primary-color);
-    color: white;
     text-align: center;
+    position: relative;
 
 }
 
@@ -50,12 +54,27 @@ aside img {
     box-shadow: 0 0 30px black;
 }
 
+aside h2 {
+    position: absolute;
+    top: 25px;
+    left: 35px;
+}
+
 p {
-    padding: 0px;
+    padding-top: 25px;
 }
 
 footer {
     margin-top: 100px;
     border-top: 2px solid black;
     text-align: center;
+}
+
+/* class selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #eee;
+    color: #000;
 }
