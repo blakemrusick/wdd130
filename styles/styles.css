@@ -1,7 +1,12 @@
 /* This is a comment */
 
+:root {
+    --primary-color: royalblue;
+    --standard-margin: 3rem;
+}
+
 nav {
-    background-color: darkblue;
+    background-color: var(--primary-color);
     padding: 10px;
 }
 
@@ -13,11 +18,11 @@ nav a {
 
 main {
     max-width: 40rem;
-
+    margin: var(--standard-margin);
 }
 
 h1 {
-    color: darkblue;
+    color: var(--primary-color);
 }
 
 main img {
@@ -30,10 +35,10 @@ main img {
 
 aside {
     width: 15rem;
-    margin: 3rem;
+    margin: var(--standard-margin);
     border: 3px solid #333;
     padding: 0 2rem;
-    background-color: royalblue;
+    background-color: var(--primary-color);
     color: white;
     text-align: center;
 
