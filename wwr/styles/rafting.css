@@ -31,13 +31,12 @@ header nav {
     align-items: center;
 }
 
-nav a {
+header nav a {
     text-decoration: none;
     color: var(--accent-color-1);
     background-color: var(--secondary-color);
     border: 1px solid var(--accent-color-1);
-    padding: 1rem 1.5rem 1rem 1.5rem;
-
+    padding: 10px
 }
 
 header {
@@ -45,7 +44,7 @@ header {
     color: var(--accent-color-1);
     width: 100%;
     display: grid;
-    grid-template-columns: 2fr 4fr;
+    grid-template-columns: 1.5fr 4fr 1.5fr;
     align-items: center;
 
 }
@@ -119,7 +118,46 @@ section {
     background-color: var(--primary-color);
     margin: 35px 0;
     padding: 8px;
+
+}
+
+.history {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.history h2 {
+    padding: 5px;
+    grid-column: span 3;
+    justify-self: center;
+
+}
+
+.history img {
+    width: 200px;
+    height: auto;
+    justify-self: center;
+}
+
+.adventure {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-items: center;
+    align-items: flex-end;
     text-align: center;
+}
+
+.adventure h2 {
+    padding: 5px;
+    grid-column: span 5;
+    justify-self: center;
+}
+
+.adventure img {
+    width: 150px;
+    height: auto;
+
 }
 
 a img {
@@ -130,4 +168,8 @@ a img {
 footer {
     border-top: var(--accent-color-2) solid 1px;
     text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
 }
