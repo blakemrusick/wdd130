@@ -86,7 +86,7 @@ article {
 
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 35px;
     width: 100%;
@@ -172,4 +172,93 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
+}
+
+.info h1,
+.info p {
+    text-align: center;
+    padding: 5px 0;
+    margin: 0;
+
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 1rem;
+
+}
+
+.contact form {
+    display: grid;
+    grid-template-columns: .25fr .75fr;
+    align-items: center;
+    padding: 1rem;
+    gap: .5rem;
+
+}
+
+.radioq {
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-items: center;
+    padding: .5rem;
+    gap: .5rem;
+
+}
+
+.radio-title {
+    grid-row: 1/-1;
+}
+
+textarea {
+    height: 100px;
+}
+
+.checkbox {
+    width: 18px;
+    height: 18px;
+    align-self: center;
+    justify-self: center;
+}
+
+button {
+    grid-column: 1/ -1;
+    justify-self: center;
+    width: 110px;
+}
+
+button:hover {
+    background-color: var(--primary-color);
+}
+
+.employees {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: .1fr .9fr;
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid var(--primary-color);
+}
+
+.employees h1 {
+    grid-row: 1;
+    grid-column: 1/4;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: 1rem;
+}
+
+.employees figure {
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+}
+
+.employees img {
+    height: 150px;
+    width: auto;
+    margin-bottom: .5rem;
 }
