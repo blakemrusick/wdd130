@@ -209,7 +209,7 @@ footer {
 
 }
 
-.radio-title {
+.radio-head {
     grid-row: 1/-1;
 }
 
@@ -243,7 +243,7 @@ button:hover {
     border: 2px solid var(--primary-color);
 }
 
-.employees h1 {
+.employees h2 {
     grid-row: 1;
     grid-column: 1/4;
     justify-self: center;
