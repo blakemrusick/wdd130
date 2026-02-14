@@ -352,17 +352,17 @@ button:hover {
 }
 
 .homegrid h2,
-.homegrid h3 {
+.homegrid h4 {
     grid-column: 1/3;
     text-align: center;
     padding: 2rem 125px .5rem 125px;
     border-bottom: 2px solid var(--accent-color-1);
 }
 
-.homegrid h4 {
+.homegrid h3 {
     align-self: flex-end;
     border-bottom: 1px solid var(--accent-color-1);
-    font-size: large;
+    font-size: larger;
 
 }
 
