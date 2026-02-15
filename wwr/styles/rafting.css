@@ -349,6 +349,7 @@ button:hover {
     width: 400px;
     height: auto;
     align-self: center;
+    box-shadow: 0 0 30px var(--accent-color-1);
 }
 
 .homegrid h2,
@@ -390,7 +391,7 @@ button:hover {
 
 .voyages {
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     gap: 1rem;
     margin: 1rem 0 1rem 0;
 }
@@ -398,11 +399,15 @@ button:hover {
 .voyages img {
     width: 400px;
     height: auto;
+    box-shadow: 0 0 30px var(--accent-color-2);
 
 }
 
 .voyages h1 {
     grid-column: 1/3;
+    width: 830px;
+    background-color: var(--primary-color);
+    padding-left: 1rem;
 
 }
 
@@ -420,11 +425,18 @@ button:hover {
 
 .voyages h2 {
     align-self: flex-end;
-    justify-self: center;
+    text-align: center;
+    width: 400px;
+    background-color: var(--primary-color);
 }
 
 .voyages h3 {
     grid-column: 1/3;
+}
+
+.voyages p {
+    width: 400px;
+    padding: 0 1rem 0 1rem;
 }
 
 table {
@@ -433,7 +445,8 @@ table {
     justify-self: center;
     background-color: var(--primary-color);
     margin: 2rem;
-    color: var(--accent-color-1)
+    color: var(--accent-color-1);
+    box-shadow: 0 0 30px var(--accent-color-2);
 }
 
 td {
